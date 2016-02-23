@@ -1,0 +1,93 @@
+body {
+    box-sizing: border-box;
+}
+
+#social-menu {
+    position: fixed;
+    top: 50%;
+    left: 0;
+
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.facebook-text {
+    font-family: "facebook-font", sans-serif;
+    background-color: #3765a1;
+    color: #FFFFFF;
+}
+
+.twitter-text {
+    font-family: "twitter-font", sans-serif;
+    background-color: #00aceb;
+    color: #FFFFFF;
+}
+
+.social-line {
+    display: block;
+    margin-bottom: -4px;
+    cursor: pointer;
+}
+
+.social-line span {
+    display: inline-block;
+    overflow: hidden;
+}
+
+span.logo {
+    width: 3em;
+    height: 3em;
+}
+
+span.logo img {
+    margin: 0;
+    padding: 0;
+
+    width: 3em;
+    height: 3em;
+
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+span.logo:hover img {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+span.logo:hover:first-of-type + span.text {
+    width: 140px;
+    padding-left: 5px;
+}
+
+span.text {
+    height: 1.5em;
+    width: 0;
+
+    font-size: 2em;
+    line-height: 1.7em;
+
+    margin-left: -4px;
+    padding-left: 0;
+
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
