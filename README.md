@@ -8,7 +8,7 @@ To use LMWeb Finder you need to link .css file provided in your document head:
 ```html
     <link href="LMSocialMenu.css" type="text/css" rel="stylesheet"> 
 ```
-Also you need to create a simple html structure which is expandible to all you need:
+Also you need to create a simple html structure which is expandible all you need:
 ```html
 <div id="social-menu">
     <span class="social-line">
