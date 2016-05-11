@@ -22,7 +22,4 @@ You only need to clone social-line span all times changing social network name, 
 #####Configuration
 If you don't like class names or id it's really easy to change: go to css file and change name; go back to html and take care the chosen names are the same.
 <br /> 
-There is an example for you to see how it works.<br /> 
-<br />
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">LMSocialMenu</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">legomolina</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License</a>.
+There is an example for you to see how it works.<br />
