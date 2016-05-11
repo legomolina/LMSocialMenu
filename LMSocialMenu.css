@@ -73,6 +73,7 @@ span.logo:hover img {
 span.logo:hover:first-of-type + span.text {
     width: 140px;
     padding-left: 5px;
+    padding-right: 5px;
 }
 
 span.text {
